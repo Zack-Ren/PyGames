@@ -2,7 +2,11 @@ import pygame
 
 class playTicTacToe():
     def __init__(self):
-        self.board = [["-","-","-"],["-","-","-"],["-","-","-"]]
+        self.board = [
+        ["-","-","-"],
+        ["-","-","-"],
+        ["-","-","-"]
+        ]
 
         self.X = 600
         self.Y = 740
